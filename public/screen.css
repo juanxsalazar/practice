@@ -13,17 +13,17 @@ html {
 }*/
 
 body {
-  /*width: auto;*/
+  /* width: auto;*/
   /* background-color: #888; */
   /*height:4000px;*/
-  /*margin: auto;*/
+  /*margin: auto; */
 }
 
 .container {
   width: 80%;
   /*Orginal Width 1170 */
   margin: auto;
-  /* background-color: #fff; */
+  /* background-color: rgb(150, 36, 36); */
 }
 
 .containerB {
@@ -46,11 +46,11 @@ body {
   /*background-image: url(HeroImg.jpg);
   background-size: cover;*/
 
-  -webkit-background-image: url(https://source.unsplash.com/KgjcndVr7tU/1920x1080);
+  /* -webkit-background-image: url(https://source.unsplash.com/KgjcndVr7tU/1920x1080);
   -moz-background-image: url(https://source.unsplash.com/KgjcndVr7tU/1920x1080);
   -o-background-image: url(https://source.unsplash.com/KgjcndVr7tU/1920x1080);
   background-image: url(https://source.unsplash.com/KgjcndVr7tU/1920x1080);
-  background-size: cover;
+  background-size: cover; */
 }
 
 .header .slider .intro {
@@ -81,7 +81,7 @@ body {
 }
 
 .header .navbar {
-  background-color: #252f31;
+  background-color: #121186;
   color: #fff;
   overflow: hidden;
   /*text-transform: uppercase;*/
@@ -89,11 +89,10 @@ body {
 
 .header .navbar h2 {
   float: left;
-  text-transform: uppercase;
 }
 
 .header .navbar h2 span {
-  color: #2ecc71;
+  color: #ffffff;
 }
 
 .header .navbar ul {
@@ -114,7 +113,7 @@ body {
 }
 
 .header .navbar ul li.active a, .header .navbar ul li a:hover {
-  color: #2ecc71;
+  color: #ffffff;
 }
 /* End Header */
 
@@ -124,6 +123,7 @@ body {
   padding-top: 40px;
   padding-bottom: 80px;
   /*box-sizing: border-box;*/
+  /* background-color: rgba(16, 85, 124, 0.596); */
 }
 
 .features .feat {
@@ -135,7 +135,7 @@ body {
 
 .features .feat h2 {
   /*text-transform: uppercase;*/
-  color: #555;
+  color: #121186;
 }
 
 .features .feat p {
@@ -159,12 +159,13 @@ body {
 .about-me .image {
   float: left;
   width: 30% ;
-  /*height: 600px;*/
+  /* height: 600px; */
 
 }
 
 .about-me .image img {
   width: 100%;
+  border-radius: 50%;
   /*height: 100%;*/
 }
 
@@ -176,7 +177,7 @@ body {
 
 .about-me .info h2 {
   margin: 20px 0 20px 40px;
-  color: #555;
+  color: #121186;
 }
 .about-me .info >p {
   margin: 0 0 10px 40px;
