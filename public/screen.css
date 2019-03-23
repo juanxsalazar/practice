@@ -6,12 +6,6 @@ html {
   height: 100%;
 }
 
- 
-/* start main rulez*/
-/**{
-  box-sizing: border-box;
-}*/
-
 body {
   /* width: auto;*/
   /* background-color: #888; */
@@ -43,14 +37,6 @@ body {
 .header .slider {
   background-color: #eee;
   height: 600px;
-  /*background-image: url(HeroImg.jpg);
-  background-size: cover;*/
-
-  /* -webkit-background-image: url(https://source.unsplash.com/KgjcndVr7tU/1920x1080);
-  -moz-background-image: url(https://source.unsplash.com/KgjcndVr7tU/1920x1080);
-  -o-background-image: url(https://source.unsplash.com/KgjcndVr7tU/1920x1080);
-  background-image: url(https://source.unsplash.com/KgjcndVr7tU/1920x1080);
-  background-size: cover; */
 }
 
 .header .slider .intro {
@@ -233,7 +219,7 @@ body {
 }
 .my-skills .skills h2{
   margin: 25px 0 20px 40px;
-  color: #555;
+  color: #121186;
 }
 .my-skills .skills p{
   margin: 0 0 10px 40px;
@@ -487,42 +473,35 @@ line-height: 1.8;
 
 /*Start Fototer*/
 .footer {
-  background-color: #191e22;
-  color: #6A6E71;
+  background-color: #114486;
   padding: 20px 0 40px 0;
   text-align: center;
   overflow: hidden;
 }
 .footer .footer-folat{
   float: left;
-  width: 50%;
-  text-align: center;
+  /* display:flex;
+  justify-content: center; */
 }
 .footer ul{
   list-style: none;
   padding-left: 0;
   text-align: center;
-  /*margin-top: 10px;*/
 }
 
 .footer ul li{
-  width: 5px;
-  height: 5px;
   display: inline-block;
-  margin: 2px;
-  padding: 5px;
 }
 .footer ul li a{
-  font-size: 1em;
+  font-size: 1.5rem;
 }
 .footer a{
-  color: #999;
+  color: rgb(255, 238, 0);
   text-decoration: none;
   text-align: center;
-  font-size: 0.9em;
 }
 .footer a:hover{
-  color: #2dcc70;
+  color: rgb(143, 73, 160);
 }
 /*End Footer*/
 
